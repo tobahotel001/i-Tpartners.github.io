@@ -1,66 +1,10 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I&T Partners - 株式会社紹介</title>
+  <title>I&T Partners - ホーム</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #333;
-      color: white;
-      padding: 10px 20px;
-    }
-    header .logo img {
-      height: 50px;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      margin: 0;
-      padding: 0;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-    }
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 20px;
-    }
-    ol {
-      padding-left: 20px;
-    }
-    ol li {
-      margin-bottom: 10px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-    form label, form input, form button {
-      margin: 10px 0;
-    }
-    footer {
-      text-align: center;
-      padding: 10px 0;
-      background-color: #111;
-      color: white;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -69,35 +13,24 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#home">ホーム</a></li>
-        <li><a href="#about">会社案内</a></li>
-        <li><a href="#contact">お問い合わせ</a></li>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="about.html">会社案内</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="home">
+    <section>
       <h1>I&T Partners株式会社</h1>
       <p>I&T Partners株式会社は、鳥羽市の豊かな自然と歴史的魅力を取り入れたホテル経営を中心に、以下の事業を展開しています：</p>
       <ol>
-        <li><strong>ホテル運営:</strong> 三重県鳥羽市の海辺に佇む宿泊施設を運営。オーシャンビューの客室や地元の新鮮な食材を活かした料理が特長です。</li>
-        <li><strong>地域体験プログラムの企画:</strong> 鳥羽市ならではの体験型プログラムを提供（例：真珠アクセサリー作り体験、地元漁師との漁業体験）。</li>
-        <li><strong>飲食事業:</strong> ホテル内レストランで地元産の海鮮や特産品を活かした料理を提供し、宿泊客や地域住民に人気のスポットを運営。</li>
-        <li><strong>ウェルネスとリラクゼーション:</strong> 海辺のリゾート施設として、温泉、スパ、エステサービスを展開し、心身を癒す空間を提供。</li>
-        <li><strong>イベント運営:</strong> ホテルの施設を活用した結婚式、企業イベント、文化交流イベントの企画と運営。</li>
+        <li><strong>ホテル運営:</strong> 三重県鳥羽市の海辺に佇む宿泊施設を運営。</li>
+        <li><strong>地域体験プログラムの企画:</strong> 真珠アクセサリー作り体験など。</li>
+        <li><strong>飲食事業:</strong> 地元産の海鮮を活かした料理を提供。</li>
+        <li><strong>ウェルネスとリラクゼーション:</strong> 温泉やスパサービスを展開。</li>
+        <li><strong>イベント運営:</strong> 結婚式や企業イベントを企画。</li>
       </ol>
-    </section>
-
-    <section id="contact">
-      <h2>お問い合わせ</h2>
-      <form action="submit_form.php" method="POST">
-        <label for="name">お名前:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">メールアドレス:</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit">送信</button>
-      </form>
     </section>
   </main>
 
