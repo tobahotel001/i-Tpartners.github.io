@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I&T Partners - お問い合わせ</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ - I&T Partners株式会社</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="images/logo1.png" alt="Logo">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="about.html">会社案内</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>I&T Partners株式会社</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="about.html">会社情報</a></li>
+                <li><a href="services.html">サービス</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section>
-      <h1>お問い合わせ</h1>
-      <form action="submit_form.php" method="POST">
-        <label for="name">お名前:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">メールアドレス:</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit">送信</button>
-      </form>
-    </section>
-  </main>
+    <main>
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <p>I&T Partners株式会社へのお問い合わせは、以下の連絡先までお願いいたします：</p>
 
-  <footer>
-    <p>&copy; 2025 I&T Partners株式会社</p>
-  </footer>
-</body>
-</html>
+            <p><strong>住所:</strong> 三重県鳥羽市小浜町239-12</p>
+            <p><strong>電話（本社）:</strong> 045-263-6980</p>
+            <p><strong>ファックス（本社）:</strong> 045-263-6981</p>
+
+            <!-- 自动填写邮件的联系表单，邮件发送到 chenxiaogang@bjpait.com -->
+            <h3>メールでのお問い合わせ</h3>
+            <form action="mailto:chenxiaogang@bjpait.com" method="post" enctype="text/plain">
+                <label for="name">お名前:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">メールアドレス:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">メッセージ:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                
