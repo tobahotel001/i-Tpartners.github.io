@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         img {
-            width: 50%; /* 原图片的二分之一大小 */
-            height: auto; /* 保持图片的宽高比 */
-            float: left; /* 图片居左 */
-            margin: 20px 20px 20px 0; /* 添加外边距，避免文字紧贴图片 */
+            width: auto; /* 保持图片原始宽高比例 */
+            height: auto;
+            max-width: 50%; /* 图片宽度调整为原图大小的一半 */
+            display: block; /* 独占一行 */
+            margin: 20px 0 20px 0; /* 图片上下留白 */
         }
-        .clear {
-            clear: both; /* 清除浮动 */
+        #services {
+            text-align: left; /* 确保文字和图片左对齐 */
         }
     </style>
 </head>
@@ -38,11 +39,8 @@
                 <li><strong>地域密着型サービス:</strong> 地元の魅力を最大限に引き出す体験型サービスを提供。</li>
                 <li><strong>持続可能性への取り組み:</strong> 環境に配慮した運営を実施し、地域社会と共存するホテル経営を目指します。</li>
             </ul>
-            
-            <img src="toba_p2.jpg" alt="ホテルのイメージ">
 
-            <!-- 清除浮动 -->
-            <div class="clear"></div>
+            <img src="toba_p2.jpg" alt="ホテルのイメージ">
 
             <h2>サービス展開</h2>
             <p>
